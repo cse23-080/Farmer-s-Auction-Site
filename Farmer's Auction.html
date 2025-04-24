@@ -1,38 +1,122 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Farmers Auction Site</title>
-
-    <!-- Code for font awesome cdm -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.main.css">
-    <!-- Code for font awesome cdm -->
-
-    <!-- Code for linking css file -->
-     <link href="Style.css" rel="stylesheet">
-    <!-- Code for linking css file -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="Style.css" rel="stylesheet">
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     
-  </head>
-  <body>
-<!-- header section-->
-    <header class= "header">
-      <a href="#" class="logo"> <i class="fa fa-shooping-basket"></i> Grocery</a>
-      <nav class="navbar">
-         <a herf="home">Home</a>
-         <a herf="Features">Features</a>
-         <a herf="Products">Products</a>
-         <a herf="Categories">Categories</a>
-         <a herf="Reviews">Reviews</a>
-      </nav>
-    <div class="icons">
-      <div class="fas fa-bars" id="menu-btn"></div>
-      <div class="fas fa-search" id="search-btn"></div>
-      <div class="fas fa-shopping-cart" id="cart-btn"></div>
-      <div class="fas fa-user" id="login-btn"></div>
-      
-        
+</head>
+<body style="background-color: white;"> <!-- Set body background color to white -->
+    
+<header>
+    <!-- Logo -->
+    <div class="logo">
+        <img src="#" alt="Farmers Auction Logo">
     </div>
-    </header>
 
-    <script src= "js/script.js"></script>
-  </body>
+    <!-- Navigation -->
+    <div class="buttons-container">
+        <a href="#"> Home</a>
+        <a href="#"> Features</a>
+        <a href="#"> Products</a>
+        <a href="#"> Collection</a>
+        <a href="#"> Reviews</a>
+    </div>
+</header>
+
+<main class="container">
+
+  <section>
+  <h2 style="text-align: center; font-size: 2rem; font-weight: bold; color: #5c3b0b;">Categories</h2>
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; margin: 1.5rem 0;">
+    <div style="background-color: #fff7ec; padding: 1.5rem; border-radius: 8px; text-align: center;">
+      <img src="tractor-icon.png" alt="Farm Equipment" width="40" />
+      <p>Farm Equipment</p>
+    </div>
+    <div style="background-color: #fff7ec; padding: 1.5rem; border-radius: 8px; text-align: center;">
+      <img src="cow-icon.png" alt="Livestock" width="40" />
+      <p>Livestock</p>
+    </div>
+    <div style="background-color: #fff7ec; padding: 1.5rem; border-radius: 8px; text-align: center;">
+      <img src="storage-icon.png" alt="Storage" width="40" />
+      <p>Storage</p>
+    </div>
+    <div style="background-color: #fff7ec; padding: 1.5rem; border-radius: 8px; text-align: center;">
+      <img src="plant-icon.png" alt="Seeds & Plants" width="40" />
+      <p>Seeds & Plants</p>
+    </div>
+    <div style="background-color: #fff7ec; padding: 1.5rem; border-radius: 8px; text-align: center;">
+      <img src="tools-icon.png" alt="Tools" width="40" />
+      <p>Tools</p>
+    </div>
+    <div style="background-color: #fff7ec; padding: 1.5rem; border-radius: 8px; text-align: center;">
+      <img src="property-icon.png" alt="Properties" width="40" />
+      <p>Properties</p>
+    </div>
+  </div>
+</section>
+
+<section style="background-color: #fff7ec; padding: 2rem 0;">
+  <h2 style="text-align: center; font-size: 2rem; font-weight: bold; color: #5c3b0b;">How It Works</h2>
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 2rem; margin-top: 2rem;">
+    <div style="text-align: center;">
+      <div style="background-color: #4b814b; color: white; border-radius: 50%; width: 60px; height: 60px; margin: 0 auto; display: flex; align-items: center; justify-content: center;">
+        🔍
+      </div>
+      <h4 style="margin-top: 0.5rem; color: #5c3b0b;">Find Items</h4>
+      <p>Browse through our wide selection of farm equipment and resources</p>
+    </div>
+    <div style="text-align: center;">
+      <div style="background-color: #4b814b; color: white; border-radius: 50%; width: 60px; height: 60px; margin: 0 auto; display: flex; align-items: center; justify-content: center;">
+        ⚖️
+      </div>
+      <h4 style="margin-top: 0.5rem; color: #5c3b0b;">Place Bids</h4>
+      <p>Participate in live auctions with real-time bidding</p>
+    </div>
+    <div style="text-align: center;">
+      <div style="background-color: #4b814b; color: white; border-radius: 50%; width: 60px; height: 60px; margin: 0 auto; display: flex; align-items: center; justify-content: center;">
+        🏆
+      </div>
+      <h4 style="margin-top: 0.5rem; color: #5c3b0b;">Win Auctions</h4>
+      <p>Successfully bid and acquire the items you need</p>
+    </div>
+    <div style="text-align: center;">
+      <div style="background-color: #4b814b; color: white; border-radius: 50%; width: 60px; height: 60px; margin: 0 auto; display: flex; align-items: center; justify-content: center;">
+        🚚
+      </div>
+      <h4 style="margin-top: 0.5rem; color: #5c3b0b;">Receive Items</h4>
+      <p>Get your items delivered or arrange pickup</p>
+    </div>
+  </div>
+</section>
+
+      <!-- Centered "Explore" button -->
+    <div class="button-container">
+        <a href="https://cse23-080.github.io/cse23-080/Movie.html" class="btn btn-primary">See More</a>
+    </div>
+    
+</main>
+
+<footer>
+    <p>&copy; 2024 Farmers Auction. All rights reserved.</p>
+    <ul>
+        <li><a href="">Feedback..</a></li>
+    </ul>
+    <div class="social-links">
+        <a href="https://www.instagram.com/theo_molefhe23/" target="_blank"> <img width="40" height="40" src="instagram" alt="instagram"></a>
+        <a href="https://www.facebook.com/theomolf.kingtr.5/" target="_blank"> <img width="40" height="40" src="facebook" alt="facebook"></a>
+        <a href="https://wa.me/your_+26777025359" target="_blank"> <img width="40" height="40" src="whatsapp" alt="whatapp"></a>
+        <a href="https://www.tiktok.com/@andilethero" target="_blank"> <img width="40" height="40" src="tiktok" alt="tiktok"></a>
+    </div>
+</footer>
+
+<!-- Include Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
 </html>
